@@ -1,0 +1,332 @@
+<!DOCTYPE html>
+<html lang="en">
+<head> 
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Parle,Food Products,frooti,Agro,tasy fdrinks, cool drinks,best cool drinks">
+    <title>PARLE AGRO | Frooti</title>
+    <link rel="icon" href="/images/Untitled.webp">
+</head>
+    </body>
+    </html>
+    <style>
+
+        *{
+            margin: 0;
+            padding: 0;
+        }
+
+        html,body {
+            margin: 0;
+            padding: 0;
+            width: 100%;
+            height: 100%;
+       }
+
+        .dropdown-menu ul{
+            list-style: none;
+            width: 250px;
+        }
+
+        .logo{
+            width: 100px;
+        }
+
+        #ltside{
+            background-color: rgb(250, 176, 39);
+            height: 1000px;
+            position: relative;    
+        }
+
+        #rtside p{
+            margin-top: 15%;
+            margin-left: 15%;
+            font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
+            font-size: 120%;
+            font-weight: bold;
+        }
+
+        .fan {
+            position: absolute;
+            top: 22.5%;
+            left: 30%;
+            width: 160px;
+            transform-origin: center;
+            transition: transform 0.0s ease-out;
+        }
+
+       
+         #ltside h1{
+            position: absolute;
+            top: 40.5%;
+            left: 28.5%;
+            color: white;
+            text-align: center;
+            font-weight: bolder;
+        }
+
+        .page3{
+            height: 100%;
+            width: 100%;
+            background-color: aqua;
+        }
+
+       .col-lg-4{
+            margin-top: 5%;
+            font-weight: bold;   
+       }
+
+       #navbarColor{
+            background-color: rgb(5, 12, 54);
+            padding: 10px;
+       }
+
+       #navItems{
+            margin-right: 5%;
+            font-size: larger;
+       }
+
+       .nav-link:hover{
+            color: orangered !important;
+            transition-duration:2s;
+       }
+
+       .dropdown-item:hover{
+            color: rgb(0, 0, 0) !important;
+            background: none !important;
+            transition-duration:1s;
+       }
+
+       .dropdown-menu{
+            background-color: rgb(199, 67, 19) !important;
+       }
+
+       .image{
+            margin-left: 15%;
+            margin-bottom: 2%;
+       }
+
+    </style>
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+  </head>
+
+  <body>
+      <!--NAV BAR--> 
+    <nav id="navbarColor" class="navbar navbar-expand-lg navbar-dark">
+
+        <a href="https://www.parleagro.com" class="navbar-brand ">
+        <img class="logo" src="/images/logo.webp" alt="" class="img-responsive">
+        </a>
+          
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+        </button>
+    
+        <div class="collapse navbar-collapse justify-content-end" id="navbarSupportedContent">
+        <ul id="navItems" class="navbar-nav">
+
+            <li class="nav-item">
+                <a class="nav-link text-white" href="https://www.parleagro.com/">Home</a>
+                </li>
+
+            <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle text-white" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                Company
+                </a>
+                <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <a class="dropdown-item text-white" href="https://www.parleagro.com/about-us">About Us</a>
+                <a class="dropdown-item text-white" href="https://www.parleagro.com/people">People</a>
+                </div>
+            </li>
+
+            <li class="nav-item dropdown brands">
+                <a class="nav-link dropdown-toggle text-white bg-transparant" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                Brands
+                </a>
+                <div class="dropdown-menu">
+                    <div class="row">
+                        <div class="col-6">
+                            <ul>
+                                <li> <a class="dropdown-item text-white" href="https://www.parleagro.com/brand/10">Appy</a></li>
+                            </ul>
+                            <ul>
+                                <li> <a class="dropdown-item text-white" href="https://www.parleagro.com/brand/13">Appy Fizz</a></li>
+                            </ul>
+                            <ul>
+                                <li> <a class="dropdown-item text-white" href="https://www.parleagro.com/brand/14">B Fizz</a></li>
+                            </ul>
+                            <ul>
+                                <li> <a class="dropdown-item text-white" href="https://www.parleagro.com/brand/1">Bailley</a></li>
+                            </ul>
+                            <ul>
+                                <li> <a class="dropdown-item text-white" href="https://www.parleagro.com/brand/9">Bailley Soda</a></li>
+                            </ul>
+                        </div>
+                        <div class="col-6">
+                            <ul>
+                                <li> <a class="dropdown-item text-white" href="https://www.parleagro.com/brand/2">Dishoom</a></li>
+                            </ul>
+                            <ul>
+                                <li> <a class="dropdown-item text-white" href="https://www.parleagro.com/brand/3">Frio</a></li>
+                            </ul>
+                            <ul>
+                                <li> <a class="dropdown-item text-white" href="https://www.parleagro.com/brand/5">Frooti</a></li>
+                            </ul>
+                            <ul>
+                                <li> <a class="dropdown-item text-white" href="https://www.parleagro.com/brand/15">Bombay 99</a></li>
+                            </ul>
+                            <ul>
+                                <li> <a class="dropdown-item text-white" href="https://www.parleagro.com/brand/16">Smoodh</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </li>
+
+            <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle text-white" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                Business
+                </a>
+                <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <a class="dropdown-item text-white" href="https://www.parleagro.com/preforms">Performs</a>
+                <a class="dropdown-item text-white" href="https://www.parleagro.com/international-business">International Business</a>
+                </div>
+            </li>
+
+            <li class="nav-item">
+            <a class="nav-link text-white" href="https://www.parleagro.com/media">News Room</a>
+            </li>
+
+            <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle text-white" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                Sustainability
+                </a>
+                <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <a class="dropdown-item text-white" href="https://www.parleagro.com/sustainability">Our Resposibility</a>
+                <a class="dropdown-item text-white" href="https://www.parleagro.com/pjc-foundation">PJC Foundation</a>
+                </div>
+
+            </li>
+            <li class="nav-item">
+            <a class="nav-link text-white text-white" href="https://www.parleagro.com/careers">Careers</a>
+            </li>
+
+            <li class="nav-item">
+            <a class="nav-link text-white text-white" href="https://www.parleagro.com/contact-us">Contact Us</a>
+            </li>
+        </ul>
+        </div>
+    </nav>  
+<!--NAV BAR ENDS-->
+
+        <!--Page 1-->
+
+       <img class="bgImg" width="100%" src="images/063929FROOTI_Digital_2024_PAPL-WEB_1.webp" alt="">  
+
+       <div id="page1" class="container-fluid">
+          <div class="row">
+            <div id="ltside" class="col-lg-6">
+               <img style="width: 160px;" class="fan" src="images/0345263FA8DB.webp" alt="">
+                <h1>Live the <br> Frooti Life</h1>
+            </div>
+            <div id="rtside" class="col-lg-6"><p>The love story between Frooti and India <br> began in 1985. Today, Frooti rules<br> the hearts of millions of mango lovers<br> around the world. Just a swig of the<br> rich and juicy Frooti is akin to the joyful<br> experience of slurping on the real king<br> of fruits. Made with real mango pulp<br> from the freshest of mangoes, Frooti<br> satisfies the craving for this popular<br> seasonal fruit throughout the year. It’s<br> juicy and flavourful mango taste not<br> just rejuvenates the taste buds, but is<br> the perfect thirst-quencher that<br> refreshes you in no time.<br><br>
+
+                Led by innovation, Frooti is the first<br> drink to disrupt the beverage market in<br> India with many “firsts”. Frooti was the<br> first brand to be introduced in Tetra<br> Pak in India, pioneering the concept of<br> ‘on-the-go’. It was the first brand to<br> unveil the PET bottle and TCA Tetra<br> Pak as well. With these unique<br> innovations in packaging, Parle Agro<br> kept India’s popular mango drink fresh<br> and accessible to consumers across<br> India.
+                
+                Frooti available in 65ml, 125ml, and<br> 200ml Carton Pack and also in PET<br> bottles of 125ml, 250ml, 300ml, 600ml,<br> 1.2Ltr, and 1.8Ltr PET.</p>
+                <div class="image">
+
+                        <a href="https://www.facebook.com/frooti/">
+                            <img src="/logo/download (2).webp" alt="">
+                        </a>
+                   
+                     
+                     <a class="insta" href="https://www.instagram.com/frootiworld/">
+                        <img src="/logo/download (1).webp" alt=""> 
+                     </a>  
+
+                    <a class="tr" href="https://x.com/frooti">
+                        <img src="/logo/download.webp" alt="">
+                    </a>
+
+                    <a class="yt" href="https://www.youtube.com/channel/UCy3H6-7Gnm5SNQDzmYdKQCw">
+                       <img  src="/logo/youtube.webp" alt="">  
+                    </a>
+
+                   
+                </div>
+            </div>
+           </div>  
+        </div>
+
+        <!--Page 1 ends-->
+
+        <!--Page 2-->
+       
+            <img width="100%" class="page2" src="images/093629FROOTI_Pack_Digital_1920x1080_2023.webp" alt="">
+
+        <!--Page 2 ends-->    
+
+        <div id="page3" class="container-fluid">
+            <div class="row">
+                <div id="fpt1" class="col-lg-4">
+                    <p>Corporate Head Office <br>
+                        Parle Agro Pvt. Ltd., <br>
+                        off Western Express Highway, <br>
+                        Sahar-Chakala Road, Parsiwada, <br>
+                        Andheri (E), Mumbai 400 099. <br><br>
+                        
+                        2019, Parle Agro© All rights reserved.
+                    </p>
+
+                </div>
+                <div id="fpt2" class="col-lg-4">
+                    <p>
+                        If you have a particular query, please select the concerned department:<br><br>
+
+                        Exports: exports@parleagro.com<br>
+
+                        Preforms: preforms@parleagro.com<br>
+
+                        Consumer Cell: consumercell@parleagro.com<br>
+
+                        Media Queries: corpcomm@parleagro.com
+                    </p>
+
+                </div>
+                <div id="fpt3" class="col-lg-4">
+                    <p>
+                        Our Policy: Vigil Mechanism Policy
+                        <br>
+                        Annual Return
+                        <br>
+
+                        Get in touch:<br>
+                        T: 022 - 6734 8000<br>
+                        E: info@parleagro.com<br><br>
+
+                        Follow us : Instagram, Twitter and Linkedin
+                    </p>
+                </div>
+            </div>
+        </div>
+
+        <!--java script-->
+
+
+        <script>
+            window.addEventListener('scroll', function() {
+                const fan = document.querySelector('.fan');
+                fan.style.transform = `rotate(${window.scrollY}deg)`;
+            });
+        </script>
+
+        <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/popper.js@1.14.7/dist/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+  </body>
+</html>
